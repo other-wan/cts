@@ -1,0 +1,33 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  padding-top: 15vh;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.nav_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav_item {
+  /* padding-inline: 10px; */
+}
+
+.nav_link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+.nav_link.nav_active {
+  background-color: var(--white);
+  color: var(--blue-alt);
+  border-right: 5px solid var(--blue-alt);
+}

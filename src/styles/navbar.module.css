@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.notification_btn {
+  margin-inline: auto 0;
+  background-color: var(--dark-alt);
+  padding: 8px 10px;
+  color: var(--white);
+  border-radius: 50%;
+}
+
+.details {
+  margin-inline: 32px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.details div {
+  padding: 10px;
+  border-radius: 50%;
+  color: var(--white);
+  background-color: var(--dark-alt);
+}

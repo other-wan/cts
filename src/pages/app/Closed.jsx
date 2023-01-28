@@ -1,5 +1,10 @@
+import Navbar from 'layouts/Navbar';
 import styles from 'styles/closed.module.css';
 
 export default function Closed() {
-  return <div>Closed</div>;
+  return (
+    <div>
+      <Navbar title={'Closed'} />
+    </div>
+  );
 }
